@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["projects", "posts"]
+mainSections = ["projects"]  # ["section1", "section2"]
 robots = "all"
 
 [header]
