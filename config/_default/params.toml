@@ -11,9 +11,25 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+# enableStructuredBreadcrumbs = false
+# enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
 mainSections = ["projects"]  # ["section1", "section2"]
 robots = "all"
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
+# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+# hotlinkFeatureImage = false
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "fixed" # valid options: basic, fixed
@@ -21,7 +37,7 @@ robots = "all"
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
@@ -38,8 +54,8 @@ robots = "all"
 
 [article]
   showDate = true
-  #showViews = true
-  #showLikes = true
+  # showViews = true
+  # showLikes = true
   showDateUpdated = false
   showAuthor = true
   showHero = false
@@ -56,6 +72,9 @@ robots = "all"
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
+  showCategories = true # These will show if showTaxonomies is true.
+  showTags = true # These will show if showTaxonomies is true.
+  showCategoriesInSecondaryColor = true # This will change the color of category badges, so the user can better distinguish between the two. Only if showTaxonomies is true.
   showAuthorsBadges = false 
   showWordCount = false
   showSummary = true
@@ -63,7 +82,7 @@ robots = "all"
 
 [list]
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showTableOfContents = false
   showCards = true
   groupByYear = true
