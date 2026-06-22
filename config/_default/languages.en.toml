@@ -16,8 +16,8 @@ title = "Abantika Bhuti"
 [params.author]
   name = "Abantika Bhuti"
   image = "img/main-image.png"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
+  # headline = "research assistant"
+  # bio = "research assistant"
   links = [
     { envelope = "mailto:abantika.bhuti@gmail.com" },
     # { link = "https://awkwardquill.wordpress.com/" },
