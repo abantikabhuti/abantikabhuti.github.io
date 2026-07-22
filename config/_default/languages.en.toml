@@ -9,15 +9,15 @@ title = "Abantika Bhuti"
   isoCode = "en"
   rtl = false
   # logo = "img/logo.png"
-  description = "research assistant"
+  # description = "research assistant"
   # copyright = "Copy, _right?_ :thinking_face:"
   dateFormat = "2 January 2006"
 
 [params.author]
   name = "Abantika Bhuti"
   image = "img/main-image.png"
-  headline = "research assistant"
-  bio = "research assistant"
+  # headline = "research assistant"
+  # bio = "research assistant"
   links = [
     { envelope = "mailto:abantika.bhuti@gmail.com" },
     # { link = "https://awkwardquill.wordpress.com/" },
