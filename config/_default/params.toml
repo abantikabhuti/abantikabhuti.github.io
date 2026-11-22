@@ -11,12 +11,30 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
 
 mainSections = ["projects"]  # ["section1", "section2"]
 robots = "all"
 
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+# defaultBackgroundImage = "images/v3/site-background.svg"
+# backgroundCanvas = true # render defaultBackgroundImage as a fixed backdrop on every page
+# defaultFeaturedImage = "/img/featured.svg"
+# defaultSocialImage = "/img/blowfish_banner.png"
+# hotlinkFeatureImage = false
+# imagePosition = "50% 50%"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
 [header]
-  layout = "basic" # valid options: basic, fixed
+  layout = "floating" # valid options: basic, fixed
+  mobileMenuStyle = "dropdown" # valid options: fullscreen, dropdown
 
 [footer]
   showMenu = true
