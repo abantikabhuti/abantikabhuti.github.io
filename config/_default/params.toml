@@ -21,7 +21,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "img/ripples.svg"
+# defaultBackgroundImage = "img/ripples.svg"
 # backgroundCanvas = true # render defaultBackgroundImage as a fixed backdrop on every page
 # defaultFeaturedImage = "/img/featured.svg"
 # defaultSocialImage = "/img/blowfish_banner.png"
