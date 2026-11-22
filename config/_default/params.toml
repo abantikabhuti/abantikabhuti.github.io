@@ -44,7 +44,7 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, landing, custom
+  layout = "background" # valid options: page, profile, hero, card, background, landing, custom
   #layoutSwitcher = true # opt-in interactive preview of the built-in layouts
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = true
